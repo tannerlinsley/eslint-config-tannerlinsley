@@ -1,0 +1,59 @@
+{
+  "name": "eslint-config-tannerlinsley",
+  "version": "0.0.0-semantically-released",
+  "description": "ESLint rules according to tannerlinsley' personal preference",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tannerlinsley/eslint-config-tannerlinsley.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "tannerlinsley",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Tanner Linsley <tannerlinsley@gmail.com> (http://tannerlinsley.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tannerlinsley/eslint-config-tannerlinsley/issues"
+  },
+  "homepage": "https://github.com/tannerlinsley/eslint-config-tannerlinsley#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-import-resolver-babel-module": "^3.0.0",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.0.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "webpack": "^2.6.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.17.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.19.0",
+    "eslint-find-rules": "^1.14.3",
+    "husky": "^0.13.4",
+    "npm-run-all": "^4.0.2",
+    "semantic-release": "^6.3.6",
+    "validate-commit-msg": "^2.12.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
