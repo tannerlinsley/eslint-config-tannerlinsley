@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tannerlinsley",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.1",
   "description": "ESLint rules according to tannerlinsley' personal preference",
   "main": "index.js",
   "repository": {
